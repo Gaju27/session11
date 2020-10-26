@@ -1,8 +1,7 @@
 
 # Python Modules
-
-# Module Introduction
-# Import Variants
+ * #### Module Introduction
+ * #### Import Variants
 
 ## Modules Introduction:
 __1.__ what are modules in python?
@@ -49,3 +48,7 @@ __3.__ How to __import hello__ without import statement?
   * res_h
   * p2j
   * j2p
+  
+  ## Output
+  
+  ![output](https://github.com/Gaju27/session11/blob/main/png_4.png)
