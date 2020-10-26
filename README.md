@@ -51,4 +51,11 @@ __3.__ How to __import hello__ without import statement?
   
   ## Output
   
+  ### From Local test logs
+  
   ![output](https://github.com/Gaju27/session11/blob/main/test_output.JPG)
+  
+  
+  ### From Github Action test logs
+  
+  ![github_action](https://github.com/Gaju27/session11/blob/main/git_action_output.JPG)
