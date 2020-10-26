@@ -116,7 +116,7 @@ def test_folder_resize_store_png():
 def test_zip_resize_percentage_80():
     command = f'python image_con res_p -file {path} -loc "resize_store_per" -per 80'
     command_run = os.system(command)
-    assert command_run == 1, "resize image by 80%"
+    assert command_run == 256, "resize image by 80%"
 
 
 def test_folder_resize_store_percentage():
@@ -140,7 +140,7 @@ def test_folder_resize_store_jpg():
 def test_zip_resize_to_500_width():
     command = f'python image_con res_w -file {path} -loc "resize_store_width" -wt 500'
     command_run = os.system(command)
-    assert command_run == 1, "Image Resize by Width Success"
+    assert command_run == 256, "Image Resize by Width Success"
 
 
 def test_folder_resize_store_for_resize_to_500_width():
@@ -152,7 +152,7 @@ def test_folder_resize_store_for_resize_to_500_width():
 def test_zip_resize_to_500_height():
     command = f'python image_con res_h -file {path} -loc "resize_store_height" -ht 500'
     command_run = os.system(command)
-    assert command_run == 1, "Image Resize by height Success"
+    assert command_run == 256, "Image Resize by height Success"
 
 
 def test_folder_resize_store_for_resize_to_500_height():
