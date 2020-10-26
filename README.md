@@ -51,4 +51,4 @@ __3.__ How to __import hello__ without import statement?
   
   ## Output
   
-  ![output](https://github.com/Gaju27/session11/blob/main/Output.JPG)
+  ![output](https://github.com/Gaju27/session11/blob/main/test_output.JPG)
