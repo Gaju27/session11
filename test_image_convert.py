@@ -24,7 +24,7 @@ README_CONTENT_CHECK_FOR = [
 
 ]
 
-path = 'https://github.com/Gaju27/session11/tree/main/image_store/'
+path = 'image_store/'
 
 
 
