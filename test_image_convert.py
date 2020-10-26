@@ -96,7 +96,7 @@ def test_for_backup_file_absent():
 #     assert eval(test_input) == expected
 def test_images_for_1000X1000_true():
     with pytest.raises(ValueError):
-        im = Image.open(r'/png_4.png')
+        im = Image.open(r'/home/runner/work/session11/session11/png_4.png')
         wt, ht = im.size
         img_resize.check_1000x(wt, ht)
 
