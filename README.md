@@ -17,13 +17,14 @@ __2.__ How Doest python loads Module?
 		
   An import statement is made up of the import keyword along with the name of the module.
 	
-__3.__ How to __import hello__ without import statement?
   
   *The first thing Python will do is look up the name hello in __sys.modules__. This is a cache of all modules that have been previously imported.*
   
   *If the name isn’t found in the module cache, Python will proceed to search through a list of built-in modules. These are modules that come pre-installed with Python and can be     found in the Python Standard Library. If the name still isn’t found in the built-in modules, Python then searches for it in a list of directories defined by __sys.path__. This   list usually includes the current directory, which is searched first.*
   
   *When Python finds the module, it binds it to a name in the local scope. This means that abc is now defined and can be used in the current file without throwing a __NameError__.*
+
+[comment]: < __3.__ How to __import hello__ without import statement?>
 
 ## Below Changes to be implemented
 ### Create these modules:
