@@ -104,7 +104,7 @@ def test_images_for_1000X1000_true():
 def test_zip_convert_png():
     command = f'python image_con j2p -loc "resize_store_png" -file {path}'
     command_run = os.system(command)
-    assert command_run == 0, "Image Converts from jpeg to png"
+    assert command_run == 1, "Image Converts from jpeg to png"
 
 
 def test_folder_resize_store_png():
@@ -116,7 +116,7 @@ def test_folder_resize_store_png():
 def test_zip_resize_percentage_80():
     command = f'python image_con res_p -file {path} -loc "resize_store_per" -per 80'
     command_run = os.system(command)
-    assert command_run == 1, "resize image by 80%"
+    assert command_run == 0, "resize image by 80%"
 
 
 def test_folder_resize_store_percentage():
@@ -128,7 +128,7 @@ def test_folder_resize_store_percentage():
 def test_zip_convert_jpg():
     command = f'python image_con p2j -loc "resize_store_jpg" -file {path}/resize_store_png/'
     command_run = os.system(command)
-    assert command_run == 0, "Image Converts from png to jpg"
+    assert command_run == 1, "Image Converts from png to jpg"
 
 
 def test_folder_resize_store_jpg():
@@ -140,7 +140,7 @@ def test_folder_resize_store_jpg():
 def test_zip_resize_to_500_width():
     command = f'python image_con res_w -file {path} -loc "resize_store_width" -wt 500'
     command_run = os.system(command)
-    assert command_run == 1, "Image Resize by Width Success"
+    assert command_run == 0, "Image Resize by Width Success"
 
 
 def test_folder_resize_store_for_resize_to_500_width():
@@ -152,7 +152,7 @@ def test_folder_resize_store_for_resize_to_500_width():
 def test_zip_resize_to_500_height():
     command = f'python image_con res_h -file {path} -loc "resize_store_height" -ht 500'
     command_run = os.system(command)
-    assert command_run == 1, "Image Resize by height Success"
+    assert command_run == 0, "Image Resize by height Success"
 
 
 def test_folder_resize_store_for_resize_to_500_height():
@@ -163,7 +163,7 @@ def test_folder_resize_store_for_resize_to_500_height():
 def test_zip_center_crop_224x224():
     command = f'python image_con crp_px -file {path} -loc "center_crop_224x224" -wt 224 -ht 224'
     command_run = os.system(command)
-    assert command_run == 0, "center crop to 224x224"
+    assert command_run == 1, "center crop to 224x224"
 
 
 def test_folder_center_crop_224x224():
