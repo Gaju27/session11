@@ -13,7 +13,7 @@ __1.__ what are modules in python?
 		'''This block prints Hello School of AI'''
 		print('Hello School of AI')
 	
-__2.__ How Doest python loads Module?
+__2.__ How Doest python loads __import hello__ Module?
 		
   An import statement is made up of the import keyword along with the name of the module.
 	
